@@ -1,5 +1,7 @@
-git clone git://github.com/robbyrussell/oh-my-zsh.git ~/zshConf
-ln -s ~/.zshrc ~/zshConf/.zshrc
-ln -s ~/.oh-my-zsh ~/zshConf/.oh-my-zsh
+curl -L -O  https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh && sh install.sh
+wget --no-check-certificate https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh  &&  sh install.sh
+
+copy the .zsh file from own github repo
+
 chsh -s /bin/zsh
 
