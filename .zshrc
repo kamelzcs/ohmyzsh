@@ -6,7 +6,8 @@ ZSH=$HOME/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 #ZSH_THEME="robbyrussell"
-ZSH_THEME="blinks"
+ZSH_THEME="agnoster"
+
 
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
@@ -67,4 +68,9 @@ export PATH="/home/kamel/Library/google_appengine:/usr/lib/lightdm/lightdm:/usr/
 
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
+DEFAULT_USER=`whoami`
+
 eval `dircolors ~/.dircolors`
+#bindkey -v
+
+

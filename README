@@ -5,3 +5,4 @@ copy the .zsh file from own github repo
 
 chsh -s /bin/zsh
 
+changed the theme to the ago theme.(copy files and configue)
