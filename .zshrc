@@ -69,6 +69,7 @@ export PATH="/home/kamel/Library/google_appengine:/usr/lib/lightdm/lightdm:/usr/
 # ssh
 # export SSH_KEY_PATH="~/.ssh/dsa_id"
 DEFAULT_USER=`whoami`
+setopt interactivecomments
 
 eval `dircolors ~/.dircolors`
 #bindkey -v
